@@ -1,7 +1,6 @@
 {
-  "name": "tsc-express-app",
+  "name": "recap.dev-example-tsc-express-project",
   "version": "1.0.0",
-  "description": "Getting Started with NodeJS Express using TypeScript",
   "main": "index.js",
   "scripts": {
     "start": "node dist/server",
