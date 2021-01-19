@@ -1,0 +1,39 @@
+### Get Employees
+
+GET http://localhost:3000/api/employees
+
+### Get Employee
+
+GET http://localhost:3000/api/employees/1001
+
+### Create Employee
+
+POST http://localhost:3000/api/employees
+Content-Type: application/json
+
+{
+    "Code": "CT7207",
+    "Salary": 40000,
+    "Id": 0,
+    "Job": "Manager",
+    "Department": "Operations",
+    "Name": "Shaikh Zikra"
+}
+
+### Update Employee
+
+PUT http://localhost:3000/api/employees/1015
+Content-Type: application/json
+
+{
+    "Code": "CT7207",
+    "Salary": 40000,
+    "Id": 0,
+    "Job": "Manager",
+    "Department": "Operations",
+    "Name": "Shaikh Sara"
+}
+
+### Delete Employee
+
+DELETE http://localhost:3000/api/employees/1015
